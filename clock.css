@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+  }
+  
+  .clock-container {
+    text-align: center;
+  }
+  
+  .clock {
+    display: flex;
+    font-size: 3em;
+  }
+  
+  .neon-text {
+    color: #47ec47;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+  }
+  
+  .separator {
+    margin: 0 0.5em;
+  }
+  
